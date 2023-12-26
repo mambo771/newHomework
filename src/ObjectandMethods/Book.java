@@ -1,18 +1,18 @@
 package ObjectandMethods;
 
 public class Book {
-    private final String nameBook;
+    private final String titleBook;
     private final Authors authors;
     private  int yearPublisher;
 
-    public Book(String nameBook, Authors authors, int yearPublisher) {
-        this.nameBook = nameBook;
+    public Book(String titleBook, Authors authors, int yearPublisher) {
+        this.titleBook = titleBook;
         this.authors = authors;
         this.yearPublisher = yearPublisher;
     }
 
-    public String getNameBook() {
-        return nameBook;
+    public String getTitleBook() {
+        return titleBook;
     }
 
     public Authors getAuthors() {
