@@ -1,20 +1,20 @@
 package ObjectandMethods;
 
 public class Authors {
-    private final String firstName;
-    private  final String secondName;
+    private final String first;
+    private  final String second;
 
-    public Authors(String firstName, String secondName) {
-        this.firstName = firstName;
-        this.secondName = secondName;
+    public Authors(String first, String second) {
+        this.first = first;
+        this.second = second;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFirst() {
+        return first;
     }
 
-    public String getSecondName() {
-        return secondName;
+    public String getSecond() {
+        return second;
     }
 
 
